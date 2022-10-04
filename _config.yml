@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Dongchen Li"
 title_separator          : "-"
-name                     : &name "Dongchen Li
+name                     : &name "Dongchen Li"
 description              : &description "personal description"
 url                      : https://billyldc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
