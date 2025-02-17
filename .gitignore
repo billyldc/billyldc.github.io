@@ -1,3 +1,19 @@
 _site/
 
 *template*
+*.synctex.gz
+*.aux
+*.log
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.xdv
+*.cfg
+_minted*
+main.pdf
+.DS_Store
+main.synctex(busy)
+*.bkp
+*.cut
