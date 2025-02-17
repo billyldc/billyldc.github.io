@@ -8,7 +8,7 @@ redirect_from:
 url: 'https://billyldc.github.io/files//files/latestCV.pdf'
 ---
 
-{%  %}
+{% include base_path %}
 
 <!-- Education
 ======
