@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Dongchen Li"
-  avatar           : "files/photo_2024.png"
+  avatar           : "https://billyldc.github.io/files/photo_2024.png"
   bio              : "phd, the University of Hong Kong"        #"Your biography for the left-hand sidebar"
   location         : "Hong Kong"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    :      #"http://yourfullgooglescholarurl.com"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :  dongchen.li.pku@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
