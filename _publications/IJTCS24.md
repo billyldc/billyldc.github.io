@@ -2,10 +2,10 @@
 title: "On the Optimal Mixing Problem of Approximate Nash Equilibria in Bimatrix Games"
 collection: publications
 permalink: /publication/IJTCS24.md
-excerpt: ''
+excerpt: 'best paper award'
 date: 2024-07-29
-venue: 'best paper award, IJTCS'
-paperurl: 'https://billyldc.github.io/files/IJTCS24_TCS25_On%20the%20Optimal%20Mixing%20Problem.pdf'
+venue: 'IJTCS'
+paperurl: 'https://billyldc.github.io/files/IJTCS24_On%20the%20Optimal%20Mixing%20Problem.pdf'
 # citation: 'https://dblp.org/search?q=On+the+Optimal+Mixing+Problem+of+Approximate+Nash+Equilibria+in+Bimatrix+Games'
 ---
-author: "Dongchen Li, Hanyu Li, Xiaotie Deng"
+author: Dongchen Li, Hanyu Li, Xiaotie Deng
