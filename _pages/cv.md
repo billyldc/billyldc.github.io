@@ -5,9 +5,10 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+url: 'https://billyldc.github.io/files//files/latestCV.pdf'
 ---
 
-{% https://billyldc.github.io/files//files/latestCV.pdf %}
+{%  %}
 
 <!-- Education
 ======
