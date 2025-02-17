@@ -2,7 +2,7 @@
 title: "A Computer-aided Approach for Approximate Nash Equilibria"
 collection: publications
 category: manuscripts
-permalink: /publication/WINE24.md
+permalink: /publication/WINE24
 excerpt: ''
 date: 2024-12-01
 venue: 'WINE'
