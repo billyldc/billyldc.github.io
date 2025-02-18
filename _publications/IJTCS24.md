@@ -1,7 +1,7 @@
 ---
 title: "On the Optimal Mixing Problem of Approximate Nash Equilibria in Bimatrix Games"
 collection: publications
-permalink: /publication/IJTCS24.
+permalink: /publication/IJTCS24
 excerpt: 'best paper award'
 date: 2024-07-29
 venue: 'IJTCS'
