@@ -17,3 +17,5 @@ main.pdf
 main.synctex(busy)
 *.bkp
 *.cut
+
+vendor/
