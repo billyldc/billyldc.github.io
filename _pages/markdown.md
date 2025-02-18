@@ -6,8 +6,16 @@ redirect_from:
   - /md/
   - /markdown.html
 ---
+## 如何在本地进行编译:
 
-## Locations of key files/directories
+<!-- # 清理旧构建
+bundle exec jekyll clean
+
+# 强制重新生成
+bundle exec jekyll build --trace -->
+
+
+## Locations of key files/directories 这个很重要!
 
 * Basic config options: _config.yml
 * Top navigation bar config: _data/navigation.yml

@@ -87,8 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  academic_email       : dongchen.li.pku@gmail.com
-  personal_email       : dongchen.li@connect.hku.hk 
+  email       : dongchen.li.pku@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -192,6 +191,11 @@ collections:
 
 # Defaults
 defaults:
+  # # _cv
+  # - cv:
+  #     path: "_pages/cv.md"
+  #   values:
+  #     permalink: /cv/
   # _posts
   - scope:
       path: ""
@@ -210,15 +214,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-#   # _teaching
-#   - scope:
-#       path: ""
-#       type: teaching
-#     values:
-#       layout: single
-#       author_profile: true
-#       share: true
-#       comments: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
