@@ -15,7 +15,7 @@ redirect_from:
 Education
 ======
 * **Ph.D in Computer Science** (Expected 2027)  
-  The University of Hong Kong  
+  The University of Hong Kong , School of Computing and Data Science
   *Advisor: Prof. Zhiyi Huang*  
   *Sep. 2023 - Present*
 
@@ -37,7 +37,7 @@ Publications
 
 Research Experience
 ======
-**[Algorithms, Learning, Games, and Optimization Laboratory (ALGO Lab), University of Hong Kong](https://www.cs.hku.hk/research/research-groups)**  
+**[Algorithms, Learning, Games, and Optimization Laboratory (ALGO Lab), The University of Hong Kong](https://www.cs.hku.hk/research/research-groups)**  
 *Phd Student | Advisor: [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/)*  
 `Sep 2023 - Present`
 - Prophet Inequality and Secretary Problem (2024-present)
@@ -52,7 +52,7 @@ Research Experience
 - The complexity of Fair-division (2023)
 - Cheating strategies in correlated equilibrium (2021)
 
-**Discrete Optimization Group, PKU**  
+**Discrete Optimization Group, Peking University**  
 *Undergraduate Thesis | Advisor: [Prof. Sihong Shao](http://scholar.pku.edu.cn/ssh/publications)*  
 `Jan 2023 - Jun 2023`
 - Authored bachelor thesis on combinatorial optimization (in Chinese):
