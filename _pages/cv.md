@@ -25,8 +25,9 @@ Education
 
 Research Interests
 ======
-* Online Algorithms
-* Approximate Algorithms
+I am recently interested in algorithm design and analysis under the following topics:
+* Optimal Stopping: Prophet Inequality, Prophet Secretary
+* Online Algorithms and Approximate Algorithms: Approximate or Online Rounding Schemes
 * Automated Algorithm Design
 
 Publications
@@ -41,13 +42,13 @@ Research Experience
 *Phd Student | Advisor: [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/)*  
 `Sep 2023 - Present`
 - Prophet Inequality and Secretary Problem (2024-present)
-- Reinforcement Learning Theory (2024-present)
+- Reinforcement Learning Theory (2024-2025)
 
 **[daGame Lab, Peking University](https://cfcs.pku.edu.cn/english/research/researchlabs/237314.htm)**  
 *Undergraduate Research | Advisor: [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/dengxiaotie/)*  
 `Jan 2021 - Present`
-- Automated Algorithm Design and Analysis (2024-present)
-- Polynomial-time algorithms for constant approximate Nash equilibria (2023-present)
+- Automated Algorithm Design and Analysis (2024-2025)
+- Polynomial-time algorithms for constant approximate Nash equilibria (2023-2025)
 - Analyzed complexity of Quantal Response Equilibrium (2023)
 - The complexity of Fair-division (2023)
 - Cheating strategies in correlated equilibrium (2021)
@@ -63,6 +64,7 @@ Research Experience
 
 Awards & Honors
 ======
+* **Best Paper Award** - [IJTCS 2024](https://ijtcs2024.comp.polyu.edu.hk/accepted.html) on Track C: Computational Economics and Algorithmic Game Theory
 * **Presidential PhD Scholarship** - HKU (2023-present)
 * **Yizheng Scholarship** (Top 25%) - Peking University (2021)
 * **Silver Medalist** - Chinese Mathematical Olympiad (National Top 170, 2018)

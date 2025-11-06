@@ -5,7 +5,7 @@ permalink: /publication/SODA25
 excerpt: ''
 date: 2025-01-15
 venue: 'SODA'
-paperurl: 'https://billyldc.github.io/files/SODA25_Prophet_Secretary_and_Matching_the_Significance_of_the_Largest_Item.pdf'
+paperurl: 'https://arxiv.org/abs/2411.01191'
 # citation: 'https://dblp.org/search?q=Prophet+Secretary+and+Matching%3A+the+Significance+of+the+Largest+Item'
 ---
 
