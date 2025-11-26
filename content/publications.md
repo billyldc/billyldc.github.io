@@ -1,8 +1,6 @@
 <!--lang:zh-->
 # 论文 {#publications}
 
-## 期刊与会议论文
-
 1. **Optimal Stopping with a Predicted Prior**  
    作者：Tian Bai, Zhiyi Huang, Chui Shan Lee, Dongchen Li  
    *arXiv 2025*  
@@ -32,8 +30,6 @@
 
 <!--lang:en-->
 # Publications {#publications}
-
-## Journal and Conference Papers
 
 1. **Optimal Stopping with a Predicted Prior**  
    Authors: Tian Bai, Zhiyi Huang, Chui Shan Lee, Dongchen Li  

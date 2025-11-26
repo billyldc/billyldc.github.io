@@ -78,6 +78,43 @@ header .tagline {
   color: var(--subtext);
 }
 
+.contact-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+  padding: 4px;
+  transition: 0.2s;
+}
+
+.contact-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.contact-icon i {
+  font-size: 18px;
+  color: #0f172a;
+}
+
+.contact-icon:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.45);
+}
+
 nav {
   display: flex;
   flex-direction: column;

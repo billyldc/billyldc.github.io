@@ -3,7 +3,7 @@
 
 你好，我是李东晨，现为香港大学计算与数据科学学院的计算机科学博士生（预计 2027 年毕业），导师为 [黄志毅教授](https://i.cs.hku.hk/~zhiyi/)。我的研究聚焦于 **在线算法、最优停止问题、近似算法** 以及 **自动化算法设计**。
 
-目前常驻香港，欢迎通过邮箱 [dongchen.li.pku@gmail.com](mailto:dongchen.li.pku@gmail.com) 与我交流。
+目前常驻香港，欢迎通过邮箱与我交流。
 
 ---
 
@@ -55,21 +55,12 @@
 
 ---
 
-## 联系方式 {#contact}
-
-- 📍 香港  
-- ✉️ dongchen.li.pku at gmail dot com 
-- ✉️ dongchen.li at connect dot hku dot hk
-- 🔗 [GitHub](https://github.com/billyldc) · [ORCHID](https://orcid.org/0000-0001-7499-7358)
-
----
-
 <!--lang:en-->
 # About Me {#about}
 
 Hi, I'm Dongchen Li, a Ph.D. student in Computer Science at the University of Hong Kong, advised by [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/). My research interests include **online algorithms, optimal stopping, approximation algorithms**, and **automated algorithm design**.
 
-I am based in Hong Kong. Feel free to reach me at [dongchen.li.pku@gmail.com](mailto:dongchen.li.pku@gmail.com).
+I am based in Hong Kong. Feel free to reach me via email.
 
 ---
 
@@ -134,10 +125,3 @@ I am recently interested in algorithm design and analysis under the following to
 - **Academic Excellence Award** — Peking University (2020–2022)
 
 ---
-
-## Contact {#contact}
-
-- 📍 Hong Kong  
-- ✉️ dongchen.li.pku at gmail dot com 
-- ✉️ dongchen.li at connect dot hku dot hk
-- 🔗 [GitHub](https://github.com/billyldc) · [ORCHID](https://orcid.org/0000-0001-7499-7358)

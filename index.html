@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title data-i18n-key="title">Dongchen Li · Personal Site</title>
   <link rel="stylesheet" href="./styles.css" />
+  <!-- Icon fonts: Font Awesome + Academicons (loaded from CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" />
 </head>
 <body>
   <main data-md="home">
@@ -13,6 +16,20 @@
         <h1 data-i18n-key="name">Dongchen Li</h1>
         <img src="./images/profile.jpg" alt="李东晨" class="profile-photo" />
         <div class="tagline" data-i18n-key="tagline">Ph.D. Student · Algorithms · Online Optimization</div>
+        <div class="contact-icons" id="contact">
+          <a href="mailto:dongchen.li.pku@gmail.com" class="contact-icon" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/billyldc" class="contact-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://orcid.org/0000-0001-7499-7358" class="contact-icon" aria-label="ORCID" target="_blank" rel="noopener noreferrer">
+            <i class="ai ai-orcid"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?hl=en&user=TfGA71AAAAAJ" class="contact-icon" aria-label="Google Scholar" target="_blank" rel="noopener noreferrer">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+        </div>
       </div>
       <nav>
         <a href="#about" data-i18n-key="nav_about">关于我</a>
@@ -21,7 +38,6 @@
         <a href="./publications.html" data-i18n-key="nav_publications">论文</a>
         <a href="#experience" data-i18n-key="nav_experience">研究经历</a>
         <a href="#awards" data-i18n-key="nav_awards">荣誉</a>
-        <a href="#contact" data-i18n-key="nav_contact">联系</a>
         <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言">EN</button>
       </nav>
     </header>

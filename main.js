@@ -23,7 +23,6 @@ const translations = {
     nav_publications: "论文",
     nav_experience: "研究经历",
     nav_awards: "荣誉",
-    nav_contact: "联系",
     status_open: "正在寻找合作与交流机会",
     footer_note: "Inspired by Schema.org 结构化数据理念"
   },
@@ -37,7 +36,6 @@ const translations = {
     nav_publications: "Publications",
     nav_experience: "Research Experience",
     nav_awards: "Awards",
-    nav_contact: "Contact",
     status_open: "Open to collaboration and discussion",
     footer_note: "Inspired by the idea of Schema.org structured data"
   }
