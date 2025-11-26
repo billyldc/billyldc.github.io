@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n-key="title">Dongchen Li · Personal Site</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main data-md="home">
+    <header>
+      <div>
+        <h1 data-i18n-key="name">Dongchen Li</h1>
+        <img src="./images/profile.jpg" alt="李东晨" class="profile-photo" />
+        <div class="tagline" data-i18n-key="tagline">Ph.D. Student · Algorithms · Online Optimization</div>
+      </div>
+      <nav>
+        <a href="#about" data-i18n-key="nav_about">关于我</a>
+        <a href="#education" data-i18n-key="nav_education">教育经历</a>
+        <a href="#research" data-i18n-key="nav_research">研究方向</a>
+        <a href="./publications.html" data-i18n-key="nav_publications">论文</a>
+        <a href="#experience" data-i18n-key="nav_experience">研究经历</a>
+        <a href="#awards" data-i18n-key="nav_awards">荣誉</a>
+        <a href="#contact" data-i18n-key="nav_contact">联系</a>
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-label="切换语言">EN</button>
+      </nav>
+    </header>
+
+    <section id="markdown-root" class="content" aria-live="polite">
+      <p>正在载入内容……</p>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> <span data-i18n-key="name">Dongchen Li</span>
+    </footer>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
