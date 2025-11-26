@@ -17,6 +17,7 @@ main.pdf
 main.synctex(busy)
 *.bkp
 *.cut
-*.README.md
+
+README.md
 
 vendor/
