@@ -23,7 +23,7 @@
 
 1. **On the Optimal Mixing Problem of Approximate Nash Equilibria in Bimatrix Games**  
    作者：Xiaotie Deng, Dongchen Li, Hanyu Li  
-   *International Joint Conference on Theoretical Computer Science (**IJTCS**) 2024*;
+   **最佳论文**, *International Joint Conference on Theoretical Computer Science (**IJTCS**) 2024*;
    *Volume 1031, Theoretical Computer Science (**TCS**) 2025* (扩展版).  
    [IJTCS24](./files/IJTCS24_On the Optimal Mixing Problem.pdf) · [TCS25](./files/TCS25_On_the_Optimal_Mixing_Problem.pdf)
 
@@ -54,6 +54,6 @@
 
 1. **On the Optimal Mixing Problem of Approximate Nash Equilibria in Bimatrix Games**  
    Authors: Xiaotie Deng, Dongchen Li, Hanyu Li  
-   *International Joint Conference on Theoretical Computer Science (**IJTCS**) 2024*;
+   ***best paper**, International Joint Conference on Theoretical Computer Science (**IJTCS**) 2024*;
    *Volume 1031, Theoretical Computer Science (**TCS**) 2025* (extended version).  
    [IJTCS24](./files/IJTCS24_On the Optimal Mixing Problem.pdf) · [TCS25](./files/TCS25_On_the_Optimal_Mixing_Problem.pdf)
