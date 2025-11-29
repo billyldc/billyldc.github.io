@@ -93,7 +93,8 @@ I am recently interested in algorithm design and analysis under the following to
 *Ph.D. Student · Advisor: [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/)*  
 `Sep. 2023 – Present`
 
-- Prophet Inequality and Secretary Problem (2024–present)  
+- Matroid Secretary Problem (2025–present)
+- Prophet Inequality and Secretary Problem (2024–present)
 - Reinforcement Learning Theory (2024–2025)
 
 ### daGame Lab, Peking University
