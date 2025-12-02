@@ -16,11 +16,12 @@ const translations = {
   zh: {
     name: "李东晨",
     title: "李东晨 · 个人主页",
-    tagline: "博士生 · 算法 · 在线优化",
+    tagline: "博士生 · 在线算法 · 优化",
     nav_about: "关于我",
     nav_education: "教育经历",
     nav_research: "研究方向",
     nav_publications: "论文",
+    nav_automation: "自动化",
     nav_experience: "研究经历",
     nav_awards: "荣誉",
     status_open: "正在寻找合作与交流机会",
@@ -29,11 +30,12 @@ const translations = {
   en: {
     name: "Dongchen Li",
     title: "Dongchen Li · Personal Site",
-    tagline: "Ph.D. Student · Algorithms · Online Optimization",
+    tagline: "Ph.D. Student · Online Algorithms · Optimization",
     nav_about: "About",
     nav_education: "Education",
     nav_research: "Research",
     nav_publications: "Publications",
+    nav_automation: "Automation",
     nav_experience: "Research Experience",
     nav_awards: "Awards",
     status_open: "Open to collaboration and discussion",
@@ -102,6 +104,7 @@ function renderMarkdown(text) {
   let inList = false;
   let listType = null; // "ul" | "ol"
   let currentListItem = null;
+  let currentListItemClass = "";
 
   let inBlockquote = false;
   let blockquoteBuffer = [];
@@ -116,8 +119,9 @@ function renderMarkdown(text) {
 
   function flushListItem() {
     if (currentListItem !== null) {
-      html += `<li>${currentListItem}</li>`;
+      html += `<li${currentListItemClass}>${currentListItem}</li>`;
       currentListItem = null;
+      currentListItemClass = "";
     }
   }
 
@@ -197,6 +201,9 @@ function renderMarkdown(text) {
       continue;
     }
 
+    const indentMatch = raw.match(/^[\t ]*/);
+    const indent = indentMatch ? indentMatch[0].length : 0;
+
     // list item (unordered)
     match = trimmed.match(/^[-*+]\s+(.+)$/);
     if (match) {
@@ -211,6 +218,7 @@ function renderMarkdown(text) {
       }
 
       flushListItem();
+      currentListItemClass = indent >= 2 ? ' class="list-subitem"' : "";
       currentListItem = inlineFormat(match[1]);
       continue;
     }
@@ -231,6 +239,7 @@ function renderMarkdown(text) {
       }
 
       flushListItem();
+      currentListItemClass = indent >= 2 ? ' class="list-subitem"' : "";
       currentListItem = inlineFormat(match[2]);
       continue;
     }
@@ -238,7 +247,8 @@ function renderMarkdown(text) {
     // list item continuation (indented line under a list)
     if (inList && /^ {2,}\S/.test(line)) {
       const cont = line.trim();
-      currentListItem = (currentListItem || "") + "<br>" + inlineFormat(cont);
+      currentListItem =
+        (currentListItem || "") + "<br>" + inlineFormat(cont);
       continue;
     }
 

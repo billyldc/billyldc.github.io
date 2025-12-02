@@ -199,6 +199,10 @@ nav a:hover {
   color: var(--subtext);
 }
 
+.content li.list-subitem {
+  margin-left: 1.4em;
+}
+
 .content a {
   color: var(--accent);
   text-decoration: none;
