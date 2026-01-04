@@ -12,7 +12,7 @@
 ## 教育经历 {#education}
 
 - **计算机科学博士** — 香港大学计算与数据科学学院  
-  *导师: 黄志毅教授* (2023.09 – 至今)
+  导师: 黄志毅教授 (2023.09 – 至今)
 
 - **信息科学学士** — 北京大学数学科学学院  
   (2019.09 – 2023.07)
@@ -29,16 +29,17 @@
 
 ## 研究经历 {#experience}
 
-### 香港大学算法、学习、博弈与优化实验室  
+### 香港大学 ALGO 实验室  
 *博士生 · 2023 年 9 月 – 至今*  
-- 先知不等式与秘书问题研究  
-- 强化学习理论研究 (2024–2025)
+- 拟阵秘书问题 (2025–至今)
+- 先知不等式与秘书问题 (2024–至今)
+- 强化学习理论 (2024–2025)
 
 ### 北京大学 daGame 实验室  
 *本科科研 · 2021 年 1 月 – 至今*  
-- 自动化算法设计与分析 (2024–2025)  
+- 自动化算法设计与分析 (2024–至今)  
 - 常数近似纳什均衡的多项式时间算法 (2023–2025)  
-- 量反应均衡复杂性/公平分配问题复杂性/相关均衡作弊策略等
+- 量子响应均衡复杂性/公平分配问题/相关均衡的作弊策略等 (2021-2023)
 
 ### 北京大学离散优化研究组  
 *本科毕业论文 · 2023 年 1 月 – 2023 年 6 月*  
@@ -94,24 +95,21 @@ I am recently interested in algorithm design and analysis under the following to
 ## Research Experience {#experience}
 
 ### Algorithms, Learning, Games, and Optimization Laboratory (ALGO Lab), The University of Hong Kong
-*Ph.D. Student · Advisor: [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/)*  
-`Sep. 2023 – Present`
+*Ph.D. Student · Advisor: [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/)* · `Sep. 2023 – Present`
 
 - Matroid Secretary Problem (2025–present)
 - Prophet Inequality and Secretary Problem (2024–present)
 - Reinforcement Learning Theory (2024–2025)
 
 ### daGame Lab, Peking University
-*Undergraduate Research · Advisor: [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/)*  
-`Jan. 2021 – Present`
+*Undergraduate Research · Advisor: [Prof. Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/)* · `Jan. 2021 – Present`
 
-- Automated Algorithm Design and Analysis (2024–2025)  
+- Automated Algorithm Design and Analysis (2024–Present)  
 - Polynomial-time algorithms for constant approximate Nash equilibria (2023–2025)  
-- Complexity of Quantal Response Equilibrium, Fair-division, and cheating strategies in correlated equilibrium
+- Complexity of Quantal Response Equilibrium, Fair-division, and cheating strategies in correlated equilibrium (2021–2023)
 
 ### Discrete Optimization Group, Peking University
-*Undergraduate Thesis · Advisor: [Prof. Sihong Shao](http://scholar.pku.edu.cn/ssh/publications)*  
-`Jan. 2023 – Jun. 2023`
+*Undergraduate Thesis · Advisor: [Prof. Sihong Shao](http://scholar.pku.edu.cn/ssh/publications)* · `Jan. 2023 – Jun. 2023`
 
 - Bachelor thesis on combinatorial optimization (in Chinese):  
   [Semidefinite Programming: Algorithms and Applications in Combinatorial Optimization, 半定规划及其在组合优化中的应用](./files/undergraduate_thesis_semidefinite_programming.pdf)  

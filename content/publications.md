@@ -17,7 +17,7 @@
    [IandC25](https://www.sciencedirect.com/science/article/abs/pii/S0890540125000987)
 
 1. **A Computer-aided Approach for Approximate Nash Equilibria**  
-   作者: Dongchen Li, Hanyu Li, Xiaotie Deng  
+   作者: Xiaotie Deng, Dongchen Li, Hanyu Li
    *The 20th Conference on Web and Internet Economics (**WINE**) 2024*.  
    [WINE24](./files/WINE24_A_Computer-aided_Approach_for_Approximate_Nash_Equilibria.pdf)
 
@@ -48,7 +48,7 @@
    [IandC25](https://www.sciencedirect.com/science/article/abs/pii/S0890540125000987)
 
 1. **A Computer-aided Approach for Approximate Nash Equilibria**  
-   Authors: Dongchen Li, Hanyu Li, Xiaotie Deng  
+   Authors: Xiaotie Deng, Dongchen Li, Hanyu Li 
    *The 20th Conference on Web and Internet Economics (**WINE**) 2024*.  
    [WINE24](./files/WINE24_A_Computer-aided_Approach_for_Approximate_Nash_Equilibria.pdf)
 
