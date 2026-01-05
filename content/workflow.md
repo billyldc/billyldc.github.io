@@ -1,5 +1,5 @@
 <!--lang:zh-->
-# 自动化 {#automation}
+# 工作流 {#workflow}
 
 ## 常用软件
 笔记管理软件
@@ -17,7 +17,7 @@
     - [copilot for vscode](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)：用于在 vscode 中使用 AI 辅助编写代码.
     - [codex](https://openai.com/blog/openai-codex)：用于生成和完善代码片段, 提高编程效率.
 
-自动化
+自动化工作流
 - [Mathpix](https://mathpix.com/)：用于将手写或图片中的数学公式转换为 LaTeX 代码, 提高公式输入效率.
 - [Alfred](https://www.alfredapp.com/) (macOS)：用于创建自定义快捷键/工作流/代码片段, 提高日常任务的效率.
     - spotlight的加强版, 在一个窗口内集成快速启动应用程序, 搜索文件, 打开网页, 计算器, 自动化脚本等功能.
@@ -32,9 +32,9 @@
 ---
 
 <!--lang:en-->
-# Automation {#automation}
+# Workflow {#workflow}
 
-## Common software
+## Commonly used software
 Note-taking software
 - [Obsidian](https://obsidian.md/): used to manage and write research-related notes, supports Markdown.
     - Try the [Latex Suite](https://github.com/artisticat1/obsidian-latex-suite) plugin to define custom text expansions for efficiently writing LaTeX formulas and documents in Obsidian.
@@ -50,7 +50,7 @@ Paper/code writing
     - [Copilot for VS Code](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot): AI-assisted coding and paper proofreading within VS Code.
     - [Codex](https://openai.com/blog/openai-codex): for generating and refining code snippets to improve programming efficiency.
 
-Automation
+Automated Workflow
 - [Mathpix](https://mathpix.com/): converts handwritten or image math into LaTeX code to speed up formula input.
 - [Alfred](https://www.alfredapp.com/) (macOS): create custom shortcuts, workflows, and snippets to streamline daily tasks.
     - An enhanced version of Spotlight, integrating quick app launching, file searching, web browsing, calculator, automation scripts, and more in one window.
@@ -65,4 +65,3 @@ Automation
 
 
 ---
-

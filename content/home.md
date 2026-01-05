@@ -3,7 +3,7 @@
 
 你好, 我是李东晨, 现为香港大学计算与数据科学学院的计算机科学博士生(预计 2027 年毕业), 导师为 [黄志毅教授](https://i.cs.hku.hk/~zhiyi/). 我的研究聚焦于 **在线算法、最优停止问题、随机舍入** 以及 **自动化算法设计**. 
 
-我喜欢收集数据并构建自动化工作流来简化日常任务. 近年来, 人工智能的进步使这些工作变得更加有趣——请参阅[自动化](./automation.html)页面, 了解我日常使用的工具和示例. 
+我喜欢收集数据并构建自动化工作流来简化日常任务. 近年来, 人工智能的进步使这些工作变得更加有趣——请参阅[工作流](./workflow.html)页面, 了解我日常使用的工具和示例. 
 
 目前常驻香港, 欢迎通过邮箱与我交流: dongchen dot li at connect dot hku dot hk 或 dongchen dot li dot pku at gmail dot com. 
 
@@ -63,7 +63,7 @@
 
 Hi, I'm Dongchen Li, a Ph.D. student in Computer Science at the University of Hong Kong, advised by [Prof. Zhiyi Huang](https://i.cs.hku.hk/~zhiyi/). My research interests include **online algorithms, optimal stopping, randomized rounding**, and **automated algorithm design**.
 
-I enjoy collecting data and building automated workflows to streamline routine tasks. Recent advances in AI have made these even more exciting — see the [Automation](./automation.html) page for examples and tools I use.
+I enjoy collecting data and building automated workflows to streamline routine tasks. Recent advances in AI have made these even more exciting — see the [Workflow](./workflow.html) page for examples and tools I use.
 
 I am based in Hong Kong. Feel free to reach me via email: dongchen dot li at connect dot hku dot hk or dongchen dot li dot pku at gmail dot com.
 
