@@ -41,6 +41,77 @@ const translations = {
   }
 };
 
+// CCF 2022 (theory + selected) tag map: key = venue/journal abbreviation used in tags
+const CCF_TAG_MAP = {
+  // Theory journals (A)
+  JACM: "A",
+  TIT: "A",
+  IANDC: "A",
+  IandC: "A",
+  SICOMP: "A",
+  // Theory journals (B)
+  TALG: "B",
+  TOCL: "B",
+  TOMS: "B",
+  Algorithmica: "B",
+  CC: "B",
+  FAC: "B",
+  FMSD: "B",
+  INFORMS: "B",
+  JCSS: "B",
+  JGO: "B",
+  JSC: "B",
+  MSCS: "B",
+  TCS: "B",
+  // Theory journals (C)
+  ACTA: "C",
+  APAL: "C",
+  DAM: "C",
+  FUIN: "C",
+  LISP: "C",
+  IPL: "C",
+  JCOMPLEXITY: "C",
+  LOGCOM: "C",
+  JSL: "C",
+  LMCS: "C",
+  SIDMA: "C",
+  MST: "C",
+  HOSC: "C",
+
+  // Theory conferences (A)
+  STOC: "A",
+  SODA: "A",
+  CAV: "A",
+  FOCS: "A",
+  LICS: "A",
+  WWW: "A",
+  // Theory conferences (B)
+  SoCG: "B",
+  ESA: "B",
+  CCC: "B",
+  ICALP: "B",
+  CADE: "B",
+  CONCUR: "B",
+  HSCC: "B",
+  SAT: "B",
+  COCOON: "B",
+  // Theory conferences (C)
+  CSL: "C",
+  FMCAD: "C",
+  FSTTCS: "C",
+  DSAA: "C",
+  ICTAC: "C",
+  IPCO: "C",
+  RTA: "C",
+  ISAAC: "C",
+  MFCS: "C",
+  STACS: "C",
+  SETTA: "C",
+
+  // Other (non-theory) that appear in your list
+  WINE: "A"
+};
+
 function applyTranslations() {
   const dict = translations[currentLang];
   document.documentElement.setAttribute("data-lang", currentLang);
@@ -282,7 +353,8 @@ async function loadMarkdown() {
     }
     const raw = await response.text();
     const filtered = extractLang(raw, currentLang);
-    contentTarget.innerHTML = renderMarkdown(filtered);
+    const rendered = renderMarkdown(filtered);
+    contentTarget.innerHTML = rendered;
     stylePublicationLinks();
   } catch (error) {
     contentTarget.innerHTML = `<p style="color:#f87171;">${error.message}</p>`;
@@ -323,5 +395,25 @@ function stylePublicationLinks() {
       a.classList.add("pub-link", "pub-link--journal");
       return;
     }
+  });
+
+  if (currentLang !== "zh") return;
+  const container = document.querySelector("[data-md]");
+  const page = container ? container.getAttribute("data-md") : "";
+  if (page !== "publications") return;
+
+  links.forEach((a) => {
+    if (!a.classList.contains("pub-link")) return;
+    const text = (a.textContent || "").trim();
+    const upper = text.toUpperCase();
+    if (upper.includes("ARXIV")) return;
+
+    // Extract leading venue code (letters only), e.g. "SODA25" -> "SODA"
+    const match = text.match(/^[A-Za-z]+/);
+    const code = match ? match[0] : "";
+    let level = code && CCF_TAG_MAP[code] ? CCF_TAG_MAP[code] : "";
+    if (!level) return;
+    if (text.includes("CCF")) return;
+    a.textContent = `${text} (CCF${level})`;
   });
 }
