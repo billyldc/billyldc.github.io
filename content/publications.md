@@ -6,6 +6,11 @@
    *arXiv 2025*.  
    [arXiv](https://arxiv.org/abs/2511.03289)
 
+1. **Discovering Expert-Level Nash Equilibrium Algorithms with Large Language Models**
+   作者: Hanyu Li, Dongchen Li, Xiaotie Deng
+   *arXiv 2025*.  
+   [arXiv](https://arxiv.org/abs/2508.11874)
+
 1. **Prophet Secretary and Matching: the Significance of the Largest Item**  
    作者: Ziyun Chen, Zhiyi Huang, Dongchen Li, Zhihao Gavin Tang  
    *36th ACM-SIAM Symposium on Discrete Algorithms (**SODA**) 2025*.  
@@ -36,6 +41,11 @@
    Authors: Tian Bai, Zhiyi Huang, Chui Shan Lee, Dongchen Li  
    *arXiv 2025*.  
    [arXiv](https://arxiv.org/abs/2511.03289)
+
+1. **Discovering Expert-Level Nash Equilibrium Algorithms with Large Language Models**
+   Authors: Hanyu Li, Dongchen Li, Xiaotie Deng
+   *arXiv 2025*.  
+   [arXiv](https://arxiv.org/abs/2508.11874)
 
 1. **Prophet Secretary and Matching: the Significance of the Largest Item**  
    Authors: Ziyun Chen, Zhiyi Huang, Dongchen Li, Zhihao Gavin Tang  
